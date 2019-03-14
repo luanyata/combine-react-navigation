@@ -1,6 +1,1 @@
-Order Implementation
-
-* Stack Navigation
-* Tab Navigation
-* Drawer Navigation
-* Switch Navigation
+Modelo de combinação do react navigation v3
