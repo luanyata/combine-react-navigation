@@ -1,5 +1,5 @@
 
-# Modelo: Combinando Navigations do React Navigation V3
+#Combinando Navigations do React Navigation V3
 
 É aplicado nesse projeto a combinação de 4 formas de navegação (``SwitchNavigation, TabNavigation, StackNavigation e 
 DrawerNavigation``) do pacote ``React Navigation Versão 3`
