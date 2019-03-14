@@ -20,6 +20,14 @@ ou
 $ expo start
 ```
 
+## Referências:
+
+[Canal Unsure Programmer - YouTube](https://www.youtube.com/watch?v=MePfTc_PgzQ&list=PLy9JCsy2u97kiHGp2USF5SKAfz93WwLuh)
+
+[Oficial React Navigate](https://reactnavigation.org/)
+
+[The component for route must be a React component - GitHub](https://github.com/react-navigation/react-navigation/issues/3326)
+
 ## Licença
 
  Copyright (c) 2019 <copyright holders>
