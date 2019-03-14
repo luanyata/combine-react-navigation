@@ -1,18 +1,23 @@
 import React from 'react';
 import {createBottomTabNavigator} from 'react-navigation'
-import {FeedStack, ProfileStack, SettingsStack} from "./stackNav";
+import SettingsStackNav from "./stackNavigations/settingsStackNav";
+import FeedStackNav from './stackNavigations/feedStackNav'
+import ProfileStackNav from './stackNavigations/profileStackNav'
 
 
 const DashboardTabNav = createBottomTabNavigator({
-    FeedStack,
-    ProfileStack,
-    SettingsStack
+    FeedStackNav,
+    ProfileStackNav,
+    SettingsStackNav
 }, {
     navigationOptions: ({navigation}) => {
-        const {routerName} = navigation.state.routes[navigation.state.index];
+
+        console.log({navigation}, 'nav');
+
+        const {routerName} = navigation.state.routes[navigation.state.index].routeName;
         return {
             header: null,
-            headerTitle: routerName
+            headerTitle: {routerName}
         }
     }
 });

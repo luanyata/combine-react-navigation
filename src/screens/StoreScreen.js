@@ -1,17 +1,16 @@
 import React, {Component} from 'react'
 import {View, Text, StyleSheet} from 'react-native'
 
-class DashboardScreen extends Component {
+class StoreScreen extends Component {
     render() {
         return (
-            <View stylre={styles.container}>
-                <Text>DashBoardScreen</Text>
+            <View style={styles.container}>
+                <Text>Store Screen</Text>
             </View>
         );
     }
 }
 
-export default DashboardScreen;
 
 const styles = StyleSheet.create({
     container: {
@@ -20,3 +19,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     }
 });
+
+export default StoreScreen;
+

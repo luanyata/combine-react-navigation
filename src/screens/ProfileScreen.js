@@ -4,13 +4,12 @@ import {View, Text, StyleSheet} from 'react-native'
 class ProfileScreen extends Component {
     render() {
         return (
-            <View>
+            <View style={styles.container}>
                 <Text>Profile</Text>
             </View>
         );
     }
 }
-
 
 export default ProfileScreen;
 
